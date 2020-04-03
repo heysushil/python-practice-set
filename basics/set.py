@@ -1,0 +1,23 @@
+# SET
+'''
+SET IS UNORDERD AND UNINDEXD
+SET ALWAYS HAVE UNIQE VALUES
+SET NOT ACCEPT DUBLICATE VALUES
+MODIFY VALUES
+'''
+
+set1 = {1,2,3,4,5,6,}
+set2 = {2,4,6,8,0}
+print('\nUNION: ',set1.union(set2))
+diff = set1.difference(set2)
+print('\nDifference: ',diff)
+
+
+'''
+HOME WORK
+    CREATE 2 SETS AND PERFORM FOLLOWING ACTIVITES:
+        UNION OF 2 SETS
+        AFTER GETTING THE UNION SET THEN CREATE NEW SET FOR FIND THE DIFFRENCE B/W THEM
+    FOLLOW THE LINK FOR EXERCISE: https://www.w3schools.com/python/python_sets.asp
+
+'''
