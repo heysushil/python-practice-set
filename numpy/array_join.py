@@ -1,0 +1,36 @@
+'''
+TABLE:
+
+STU_PERSONAL_TABLE
+
+ID      NAME    MOBILE      EMAIL
+
+-----------------------------------
+STU_EDU_TABLE
+
+ID      MATH       SCI      HINDI
+
+-----------------------------------
+STU_PARENT_TABLE
+
+ID      FATHER_NAME     MOTHER_NAME
+-----------------------------------
+
+JOIN:
+    FULL - GET COMMP
+    LEFT - GET LEFT SIDE TABLES (STU_PERSION) FULL DATA AND JOINING TABLE ONLY EXISTING DATA
+    RIGHT - SAME FOR RIGHT IN THIS CASE GET RIGHT TABLES ALL DATA BUT LEFTS ONLY EXISTING DATA
+    INNER - 
+
+
+
+
+WORK:
+    USING NUMPY WHERE FIND ODD NUMBER B/W 1 TO 100
+    SAME FOR EVEN
+    ALSO FIND THE SAME USING NORMAL FOR LOOP AND CONDITON
+
+    Q. CHECK POP OR DELETE IN NUMPY HOW IT WORKS?
+    Q. np.searchsorted() HOW TO WORK LEFT AND RIGHT
+    Q. PROBLEMS IN SEARCHSORT - https://www.w3schools.com/python/numpy_array_search.asp
+'''
