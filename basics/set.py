@@ -12,7 +12,7 @@ print('\nUNION: ',set1.union(set2))
 diff = set1.difference(set2)
 print('\nDifference: ',diff)
 
-
+# AWAZ JA RAHI HAI
 '''
 HOME WORK
     CREATE 2 SETS AND PERFORM FOLLOWING ACTIVITES:
