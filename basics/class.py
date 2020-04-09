@@ -1,5 +1,4 @@
 
-
 '''
 HOME WORK
     ABOUT CLASS
@@ -10,5 +9,4 @@ HOME WORK
         INHERITENCE
         POLIMORPYSIOM
         INCAPSULATION
-
 '''
