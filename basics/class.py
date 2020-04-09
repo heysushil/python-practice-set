@@ -1,0 +1,14 @@
+
+
+'''
+HOME WORK
+    ABOUT CLASS
+        OBJECT
+        CONSTRUCT
+        DISTRUCT
+        ABSTRUCT
+        INHERITENCE
+        POLIMORPYSIOM
+        INCAPSULATION
+
+'''

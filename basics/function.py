@@ -33,7 +33,7 @@ user()
 def userWithArg(name,name1):  # RECIVE ANKIT RAJ ARGUMENT IN VARABLE
     print('\nHello, {} and {}. It\'s FUN WITH    ARGUMENT AND WITHOUT RETURN VALUE'.format(name,name1))
 
-userWithArg('Anit Raj','Shubham') # PASS ONE ARG - ANKIT RAJ
+userWithArg(name1 = 'Anit Raj',name = 'Shubham') # PASS ONE ARG - ANKIT RAJ
 
 # FUN WITHOUT ARGUMENT AND WIT     RETURN VALUE
 def userWithRetrun():
@@ -45,17 +45,76 @@ print(userWithRetrun())
 def userWithArgNReturn(name,course,location,mobile):
     return '\nHello, {}, Your course is {} and location is {}. Your contact number is {}.'.format(name,course,location,mobile)
 
-name = input('Enter Your name: ')
-course = input('Enter YOur course name: ')
-location = input('Your location: ')
-mobile = input('Your Mobile: ')
+# name = input('Enter Your name: ')
+# course = input('Enter YOur course name: ')
+# location = input('Your location: ')
+# mobile = int(input('Your Mobile: '))
+# print(type(mobile))
 
-subham = userWithArgNReturn(name,course,location,mobile)
-print(subham)
+# subham = userWithArgNReturn(name,course,location,mobile)
+# print(subham)
 # ankit = userWithArgNReturn('Ankit','Python','India','98788788878')
 # print(ankit)
 
 # FUN WHERE GET VALUE BY USER
+def my_function(*kids):
+  print("The youngest child is " + kids[2])
+
+my_function("Emil", "Tobias", "Linus")
+
+'''
+FUNCTION SPECIAL FEATURES
+    RECIVE VALUES AS LIST IN CALL BY VALUE LIKE AS: def funname(*arg):
+    AT THE TIME OF CALLING FUNCTION, PASS ARGUMENT WITH VARAIABLE NAME BY WHICH YOU CAN RECIVE VALUE ON FUNCTION WITH SPECIFIC VARAIABLE NAME.
+'''
+# Arbitrary Keyword Arguments, **kwargs SAME LIKE AS DICTONARY
+dval = {'name':'ankit'}
+print(dval['name'])
+# ARBITRARY KEYWORD TO GET VALUES LIKE DICTONARY
+def dictonaryFun(**user):
+    print('\nValues of user:',user)
+    print('\n',type(user))
+dictonaryFun(fname='ankit',lname='raj',course='python',mobile='98989898')
+
+# DEFAULT VALUE IN FUNCITON
+def my_function(country = "India"):
+  print("I am from " + country)
+
+my_function("Sweden")
+my_function()
+my_function("Brazil")
+
+# PASS LIST
+def my_function(a):
+    return a + 10
+#   for x in food:
+    # print(food[x])
+
+# fruits = ["apple", "banana", "cherry"]
+# fruits = {'fruit1':'apple','fruit':'banana'}
+newfun = my_function(5)
+
+print('\nNewFUn: ',newfun)
+
+# LAMBDA FUN
+x = lambda a : a + 10
+print(x(5))
+
+# FUNCTIO RECURSION
+# def tri_recursion(k):
+#     print('\nK value at firs:',k)
+#     if(k > 0):
+#         print('\nIn if k: ',k)
+#         result = k + tri_recursion(k - 1)
+#         print('\nRecursion result: ',result)
+#     else:
+#         result = 0
+
+#     print('\nReturn recursion value: ',result)
+#     return result
+
+# print("\n\nRecursion Example Results")
+# tri_recursion(6)
 
 
 '''
