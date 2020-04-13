@@ -29,8 +29,10 @@ newObj.userDetail()
 # ANOTHER CLASS
 class Mathclass:
     # create cousnstructer and user * for getting values in list form
-    def __init__(self,*number):
+    def __init__(self,*number,name):
         self.number = number
+        self.name = name
+        print('\nNew usere: ',self.name)
 
     # sum method
     def sumofnum(self):
@@ -39,10 +41,28 @@ class Mathclass:
     def mulofnum(self):
         print('\nMultiplication of 2 numbers: ',self.number[0] * self.number[1])
 
+# GET INPUT BY USER AND USE MATHCLASS TO SUM OF 2 NUMBERS
+# inherite THE MATHCLASS
+class Userinput(Mathclass):
+    # pass
+    def __init__(self, *inputs):
+        super().__init__(*inputs,name='Default')
+    # print('Hello sub class');
+    # def user(self):
+    #     print('\nSelf values: ',self.number)
+
+
+
 # creat object of Mathclass
-mathobj = Mathclass(5,10)
-mathobj.sumofnum()
-mathobj.mulofnum()
+pclass = Mathclass(5,10,name='Subham')
+pclass.sumofnum()
+pclass.mulofnum()
+
+# USERINPUT CLASS OBJECT
+ca = int(input('Enter 1st number'))
+cb = int(input('Enter 2nd number'))
+childclass = Userinput(ca,cb)
+childclass.sumofnum()
 
 
 
@@ -67,4 +87,8 @@ HOME WORK
         INHERITENCE
         POLIMORPYSIOM
         INCAPSULATION
+
+HOME WORK 2
+    1. CREATE CLASS AND IT'S CONSTRUCTER TO SUM AND MUL USING METHOD
+    2. CREATE PARENT AND CHILD CLASS TO USE PARENTS PRINT METHOD TO SHOW THE OUTPUT OF CHILD CLASS INPUT METHOD WHERE YOU INPUT USER NAME AND COURSE WHICH YOU PASS TO PARENT CLASS'S PRINT METHOD.
 '''
