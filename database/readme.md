@@ -6,6 +6,9 @@
 
 1. First to download [XAMPP SERVER](https://www.apachefriends.org/download.html)
 2. Insall XAMPP Server and start apache and mysql by clicking on start button
+
+![XAMPP SERVER](https://a.fsdn.com/con/app/proj/xampp/screenshots/Screen%20Shot%202016-02-19%20at%2016.png/max/max/1)
+
 3. Then by using pip install connector by running this command on cmd or terminal
     python -m pip install mysql-connector
 
