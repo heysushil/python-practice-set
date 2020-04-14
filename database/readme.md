@@ -1,4 +1,4 @@
-# HOW TO CONNECT PYTHON WITH MYSQL OR PHPMYADMIN
+# HOW TO CONNECT PYTHON WITH MYSQL OR PHPMYADMIN AND EXAMPLES
 > Note: I'm using VS Code Editor.
 > Note: Easy to download xampp server or mysql and connect that with python just by installing connector.
 
