@@ -10,4 +10,6 @@ Create a program that asks the user for a number and then prints out a list of a
 2. Exercise 2 (and Solution)
 Ask the user for a string and print out whether this string is a palindrome or not. (A palindrome is a string that reads the same forwards and backwards.)
 
+3. 
+
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
