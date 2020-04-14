@@ -1,6 +1,6 @@
 # Solution of BASIC FOLDER'S Questions
 
-## 1. Create a program that asks the user for a number and then prints out a list of all the divisors of that number. (If you don’t know what a divisor is, it is a number that divides evenly into another number. For example, 13 is a divisor of 26 because 26 / 13 has no remainder.)
+### 1. Create a program that asks the user for a number and then prints out a list of all the divisors of that number. (If you don’t know what a divisor is, it is a number that divides evenly into another number. For example, 13 is a divisor of 26 because 26 / 13 has no remainder.)
 
     num = int(input("Please choose a number to divide: "))
 
@@ -15,7 +15,7 @@
     print(divisorList)
 
 
-## 2. Ask the user for a string and print out whether this string is a palindrome or not. (A palindrome is a string that reads the same forwards and backwards.)
+### 2. Ask the user for a string and print out whether this string is a palindrome or not. (A palindrome is a string that reads the same forwards and backwards.)
 
     wrd=input("\nPlease enter a word")
     wrd=str(wrd)
@@ -43,13 +43,29 @@
         print('This is NOT a Palindrome')
 
 
-## 3. Let’s say I give you a list saved in a variable: a = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]. Write one line of Python that takes this list a and makes a new list that has only the even elements of this list in it.
+### 3. Let’s say I give you a list saved in a variable: a = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]. Write one line of Python that takes this list a and makes a new list that has only the even elements of this list in it.
 
     a = [1, 4, 9, 16, 25, 36, 49, 64, 81, 100]
     b = [number for number in a if number % 2 == 0]
 
     print('\n',b)
 
+> For a solution that uses the random library to generate test lists, check this out:
+
+    import random
+
+    numlist = []
+    list_length = random.randint(5,15)
+
+
+    while len(numlist) < list_length:
+        numlist.append(random.randint(1,75))
+        
+
+    evenlist = [number for number in numlist if number % 2 == 0] 
+
+    print('\n',numlist)
+    print('\n',evenlist)
 
         
 
