@@ -1,7 +1,6 @@
-# Solution of python_basic_excercise.py in Basic folder
+# Solution of BASIC FOLDER'S Questions
 
-1. Exercise 1 (and Solution)
-> Create a program that asks the user for a number and then prints out a list of all the divisors of that number. (If you don’t know what a divisor is, it is a number that divides evenly into another number. For example, 13 is a divisor of 26 because 26 / 13 has no remainder.)
+1. Create a program that asks the user for a number and then prints out a list of all the divisors of that number. (If you don’t know what a divisor is, it is a number that divides evenly into another number. For example, 13 is a divisor of 26 because 26 / 13 has no remainder.)
 
     num = int(input("Please choose a number to divide: "))
 
@@ -16,8 +15,7 @@
     print(divisorList)
 
 
-2. Exercise 2 (and Solution)
-> Ask the user for a string and print out whether this string is a palindrome or not. (A palindrome is a string that reads the same forwards and backwards.)
+2. Ask the user for a string and print out whether this string is a palindrome or not. (A palindrome is a string that reads the same forwards and backwards.)
 
     wrd=input("\nPlease enter a word")
     wrd=str(wrd)
@@ -43,6 +41,9 @@
         print('This is a Palindrome')
     else:
         print('This is NOT a Palindrome')
+
+
+3. 
 
 
         
