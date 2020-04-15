@@ -7,6 +7,7 @@ class Myclass:
     # _y = 6
     # creating constructer
     def __init__(self, *name):
+        print(type(name))
         self.name = name
         # self.name1 = name1
         # print('\nNormal name: ',self.name[0])
@@ -19,12 +20,12 @@ class Myclass:
     def userDetail(self):
         print('\nHello Mr.{} welcome to the python course.'.format(self.name[0]))
 
-# create object of Myclass then you access class properties and methods.
-newObj = Myclass('Ankit','Subham')
-# Now after creating object of Myclass you have permission to access it's properties and methods
-print(newObj.x)
-newObj.user()
-newObj.userDetail()
+# # create object of Myclass then you access class properties and methods.
+# newObj = Myclass('Ankit','Subham')
+# # Now after creating object of Myclass you have permission to access it's properties and methods
+# print(newObj.x)
+# newObj.user()
+# newObj.userDetail()
 
 # ANOTHER CLASS
 class Mathclass:
@@ -54,15 +55,15 @@ class Userinput(Mathclass):
 
 
 # creat object of Mathclass
-pclass = Mathclass(5,10,name='Subham')
-pclass.sumofnum()
-pclass.mulofnum()
+# pclass = Mathclass(5,10,name='Subham')
+# pclass.sumofnum()
+# pclass.mulofnum()
 
-# USERINPUT CLASS OBJECT
-ca = int(input('Enter 1st number'))
-cb = int(input('Enter 2nd number'))
-childclass = Userinput(ca,cb)
-childclass.sumofnum()
+# # USERINPUT CLASS OBJECT
+# ca = int(input('Enter 1st number'))
+# cb = int(input('Enter 2nd number'))
+# childclass = Userinput(ca,cb)
+# childclass.sumofnum()
 
 
 
