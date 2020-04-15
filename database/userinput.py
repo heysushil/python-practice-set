@@ -1,20 +1,20 @@
 import connection as con
 
-def user(username,coursename,mobilenumber):
+def user(user_userid,user_math,user_english,user_hindi):
     # insert data into table
-    userqeury = "INSERT INTO user(name,course,mobile) VALUES('{}','{}',{})".format(username,coursename,mobilenumber)
+    userqeury = "INSERT INTO education(userid,math,english,hindi) VALUES({},{},{},{})".format(user_userid,user_math,user_english,user_hindi)
     con.mycursor.execute(userqeury)
     con.mydb.commit()
 
     print("1 record inserted, ID:", con.mycursor.lastrowid)
 
-# user(username=,coursename,mobilenumber)
-
 # GETING INFO BY USER
-username = input('Enter your name')
-coursename = input('Enter your course name')
-mobilenumber = int(input('Enter your mobile number'))
+user_userid = int(input('Enter your user_userid:-> '))
+user_math = int(input('Enter your user_math:-> '))
+user_english = int(input('Enter your user_english:-> '))
+user_hindi = int(input('Enter your user_hindi:-> '))
+
 
 # CALL USER FUNCTION TO PASS USER INFO
-user(username,coursename,mobilenumber)
+user(user_userid,user_math,user_english,user_hindi)
 # user('name':'a','course':'b','mobile':'c')
