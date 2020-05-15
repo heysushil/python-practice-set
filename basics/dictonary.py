@@ -1,9 +1,19 @@
-# DICTONARY
+# DICTONARY - THIS IS A SINLGE LINE COMMENT
 
 '''
-DICTONARY IS SAME AS ASSOCIATIVE ARRAY WHICH HOLDS KEY AND VALUE
-NOT DUBLICATE VALUE
+THIS IS A MULTILINE COMMENT
+
+        DICTONARY IS SAME AS ASSOCIATIVE ARRAY WHICH HOLDS KEY AND VALUE
+        NOT DUBLICATE VALUE
+
+NO  NAME        TELPHONE
+1   RAJA        98797978
 '''
+# print(string_value)
+
+if 3 > 5:
+    print('IIm in if')
+    print('Im in print body')
 
 data = {
     'name':'Ankit Raj',
@@ -36,3 +46,22 @@ HOME WORK
 
 ALSO LEAR IF/ELSE AND WHILE AND FOR LOOP
 '''
+
+
+
+
+
+
+
+
+'''
+DIFF B/W 3.5/3.7/3.8 OF PYTHON
+DIFF B/W RELATION AND NON-RELATIN DATABASE
+'''
+
+# print("hello")
+
+if 4 > 6:
+    print('hello')
+    
+

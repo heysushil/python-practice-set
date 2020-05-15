@@ -46,3 +46,4 @@ Ask the user for a string and print out whether this string is a palindrome or n
 
 
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
