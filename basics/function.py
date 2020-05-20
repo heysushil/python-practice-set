@@ -139,3 +139,11 @@ Ask the user for two numbers: one number to check (call it num) and one number t
 
 (Solution - FOLDER-> SOLUTION->INPUT.PY)
 '''
+
+
+'''
+# New Excercise:
+1. ek function bana hai jisme user input ke behalf par ginti print karanhi hai. User value jo hoga wahi ginti stop karni hai. Like user input = 50 to 1 to 50 print karna hai.
+2. ek function bana hai jisem dynamic value user input se recive karna hai aur us vlaue ke behalf par puri table print karni hai. Like as user input =2 print 2's table 2 to 20
+
+'''

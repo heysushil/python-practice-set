@@ -61,7 +61,6 @@ DIFF B/W RELATION AND NON-RELATIN DATABASE
 
 # print("hello")
 
-if 4 > 6:
-    print('hello')
-    
+detail = {'name':'ankit','name':'yogesh'} 
+
 

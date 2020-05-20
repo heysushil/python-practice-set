@@ -6,17 +6,25 @@
     INITIALIZATION
     CONDTION
     INCREMENT/DECREMENT
+
+PHP Syntax of foor loop:
+  for(intializaiot;condition;incremene/decremtn)
+
+  intitliaziton
+  while(condtion){
+    increment/decrement
+  }
 '''
 # i initialization
 i = 1
 # condtion
-while i < 6:
-    # print i value 
-  print(i)
-#   check condtion if i value 
-  if i == 5:
-    break
-  i += 1
+# while i < 6:
+#     # print i value 
+#   print(i)
+# #   check condtion if i value 
+#   # if i == 5:
+#   #   break
+#   i += 1
 
 while i < 10:
     # pass
@@ -37,7 +45,7 @@ for x in fruits:
     break
   print('\n',x)
 
-for i in range(2,21,2):
+for i in range(3,31,3):
     print(i)
 else:
   print("Finally finished!")
@@ -50,3 +58,16 @@ for x in adj:
   for y in fruits:
     print(x, y)
 # CHECK DO-WHICL LOOP IN C OR C++
+
+
+
+'''
+# Excecise of Loop
+
+1. read about loops
+2. why not use do-while loop in python
+
+'''
+
+
+
