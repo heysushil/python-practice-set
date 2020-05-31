@@ -1,0 +1,9 @@
+
+
+Hello Mr. preeti, your all details are:
+            name: preeti
+            email: preeti@gmail.com
+            course: python
+            timeing: 5 days
+            mobile: 878768768       
+        

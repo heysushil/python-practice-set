@@ -1,0 +1,9 @@
+
+
+Hello Mr. suraj, your all details are:
+            name: suraj
+            email: suraj@gmail.com
+            course: mbbs
+            timeing: 5 years
+            mobile: 87876878       
+        
