@@ -1,0 +1,25 @@
+
+        Hello Mr. sushil, Welcome to our course.
+        Your course details are as follow:
+            Name: sushil
+            Course: python
+
+        Thank You for part of this.
+
+        
+        Hello Mr. preeti, Welcome to our course.
+        Your course details are as follow:
+            Name: preeti
+            Course: btc
+
+        Thank You for part of this.
+
+        
+        Hello Mr. suraj, Welcome to our course.
+        Your course details are as follow:
+            Name: suraj
+            Course: mbbs
+
+        Thank You for part of this.
+
+        
