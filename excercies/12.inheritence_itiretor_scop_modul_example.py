@@ -34,7 +34,8 @@ Note: At first I was made a mistake here. At first imported the module right way
 
 Also in some case if you are using vs code might show syntex erros because of extensions but work's find. Still I don't know why some time vs code highlight that kind of errors which not affect the code run. But may be occure problems in future that's why showing those syntex or other kind of error's
 '''
-import MeraClass as mc
+# import MeraClass as m
+from MeraClass import ChildClass as cc
 
 # newobj = mc.
 # newobj.printName()
@@ -44,8 +45,10 @@ import MeraClass as mc
 # user input
 name = 'Shubham'
 # creat object of child class
-childObj = mc.ChildClass(name)
+childObj = cc(name)
 childObj.printName()
+# newclass = cc.NewClass(name)
+# print(newclass)
 
 detail = [1,2,3,4,5,6]
 childObj.userinfo(detail)
